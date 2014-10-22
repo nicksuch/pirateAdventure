@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A386b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -147,16 +147,17 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="actionButton" destination="KVe-34-8uz" id="OiQ-Pg-o7w"/>
+                        <outlet property="actionButton" destination="KVe-34-8uz" id="r0a-rY-YTz"/>
                         <outlet property="armorLabel" destination="VhZ-tn-ppo" id="i40-U6-TLs"/>
                         <outlet property="backgroundImageView" destination="DNQ-U5-nfh" id="Jdu-CL-r9j"/>
                         <outlet property="damageLabel" destination="eIN-i7-TqK" id="tT3-dj-Ld5"/>
-                        <outlet property="eastButtonPressed" destination="c0D-ah-9mh" id="NNG-CR-1pn"/>
+                        <outlet property="eastButton" destination="c0D-ah-9mh" id="GVr-Jt-nDY"/>
                         <outlet property="healthLabel" destination="dk5-qc-CAc" id="OZt-ao-yWg"/>
-                        <outlet property="northButtonPressed" destination="JLM-uB-y0z" id="2fr-FA-iKQ"/>
-                        <outlet property="southButtonPressed" destination="D64-34-Qru" id="JeS-sX-Xw9"/>
+                        <outlet property="northButton" destination="JLM-uB-y0z" id="d7S-1v-JmY"/>
+                        <outlet property="southButton" destination="D64-34-Qru" id="b8w-bF-FYz"/>
                         <outlet property="storyLabel" destination="fiA-Rj-XUj" id="VKE-1u-VQU"/>
                         <outlet property="weaponLabel" destination="qG1-ck-Feq" id="vpm-cN-KzL"/>
+                        <outlet property="westButton" destination="ACY-ca-FOm" id="CKB-Qc-P7U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

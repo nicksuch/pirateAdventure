@@ -23,8 +23,8 @@
     self.tileColumn = 0;
     self.tileRow = 0;
     self.tileCoordinates = [[tileObject.allTiles objectAtIndex:self.tileColumn] objectAtIndex:self.tileRow];
-    self.storyLabel = self.tileCoordinates.story;
-    self.backgroundImageView = self.tileCoordinates.backgroundImage;
+    self.storyLabel.text = self.tileCoordinates.story;
+    self.backgroundImageView.image = self.tileCoordinates.backgroundImage;
 
 }
 
@@ -42,8 +42,8 @@
     if (self.tileColumn < 4) {
         self.tileColumn ++;
     }
-    self.storyLabel = self.tileCoordinates.story;
-    self.backgroundImageView = self.tileCoordinates.backgroundImage;
+    self.storyLabel.text = self.tileCoordinates.story;
+    self.backgroundImageView.image = self.tileCoordinates.backgroundImage;
 }
 
 - (IBAction)southButtonPressed:(id)sender
@@ -51,23 +51,23 @@
     if (self.tileColumn > 1) {
         self.tileColumn --;
     }
-    self.storyLabel = self.tileCoordinates.story;
-    self.backgroundImageView = self.tileCoordinates.backgroundImage;
+    self.storyLabel.text = self.tileCoordinates.story;
+    self.backgroundImageView.image = self.tileCoordinates.backgroundImage;
 }
 
 - (IBAction)eastButtonPressed:(id)sender {
     if (self.tileRow > 1) {
         self.tileRow --;
     }
-    self.storyLabel = self.tileCoordinates.story;
-    self.backgroundImageView = self.tileCoordinates.backgroundImage;
+    self.storyLabel.text = self.tileCoordinates.story;
+    self.backgroundImageView.image = self.tileCoordinates.backgroundImage;
 }
 
 - (IBAction)westButtonPressed:(id)sender {
     if (self.tileRow < 3) {
         self.tileRow ++;
     }
-    self.storyLabel = self.tileCoordinates.story;
-    self.backgroundImageView = self.tileCoordinates.backgroundImage;
+    self.storyLabel.text = self.tileCoordinates.story;
+    self.backgroundImageView.image = self.tileCoordinates.backgroundImage;
 }
 @end
